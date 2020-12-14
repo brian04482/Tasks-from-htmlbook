@@ -1,0 +1,20 @@
+/* Вместо использования <sub> сдвигаем нужный символ вниз
+свойством vertical-align */
+.big{
+    font-size: 3em;
+}
+.tex{
+    font-family: serif;
+    letter-spacing: -0.15em;
+}
+.tex span {
+    vertical-align: -0.2em;
+}
+
+.android_shadow{
+    width: 64px;
+    height: 64px;
+    box-shadow: inset 0 0 10px gray;
+    background: url(/img/android.png) 50% 50% no-repeat;
+    /* не путаем background c background-image */
+}
